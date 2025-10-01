@@ -5,29 +5,122 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <title>Empty Template</title>
+        <link rel="stylesheet" href="css/Header-Body-Footer.css">
+        <title>Header-Body-Footer</title>
     </head>
-    <body >
-        <div class="container" >
+    <body>
+        <div class="container flex-column min-vh-100 " >
             <header class="row" >
-                <div class="col">
+                <div class="col-12">
                     <h1>Header</h1>
                     <p>Subheader</p>
                 </div>
             </header>
-            <section class="contenedor-main row">        
-                <h1>
-                    Content
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.  
-                </p>
+            <section class="row flex-fill align-items-start contenedor-main">        
+               
+                <h2>
+                    Columnas Bootstrap 5
+                </h2>
+                <h5> Los tamaños de Columna en Bootsrap 5 son:</h5> 
+                    <ol class="ms-5">
+                        <li> .col 		Extra Pequeño (Extra Small) - Smartphones Vertical		Menos de 576px</li>
+                        <li> .col-sm 	Pequeño (Small) - Smartphones Vertical	 				Mas de 576px y Menos de 768px</li>
+                        <li> .col-md 	Mediano (Medium) - Tablets 								Mas de 768px y Menos de 992px</li>
+                        <li> .col-lg 	Largo (Large) - Computadoras							Mas de 992px y Menos de 1200px</li>
+			            <li> .col-xl 	Extra Largo (Extra Large) - Computadoras				Mas de 1200px</li>
+			            <li> .col-xxl 	Extra Extra Largo (Extra Extra Large) - Televisiones 	Mas de 1400px </li>
+                    </ol>
+            </section>
+            <section class="row flex-fill align-items-start contenedor-main justify-content-center">        
+                <h3>
+                    Padding
+                </h3>
+                   <table class="table table-bordered table-striped table-hover w-auto">
+                    <thead>
+                        <tr>
+                            <th>Clase</th>
+                            <th>Valor (aprox en Bootstrap 5)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>p-0</code></td>
+                            <td><code>0rem</code> (0px)</td>
+                        </tr>
+                        <tr>
+                            <td><code>p-1</code></td>
+                            <td><code>0.25rem</code> (4px)</td>
+                        </tr>
+                        <tr>
+                            <td><code>p-2</code></td>
+                            <td><code>0.5rem</code> (8px)</td>
+                        </tr>
+                        <tr>
+                            <td><code>p-3</code></td>
+                            <td><code>1rem</code> (16px)</td>
+                        </tr>
+                        <tr>
+                            <td><code>p-4</code></td>
+                            <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                        <tr>
+                            <td><code>p-5 (max)</code></td>
+                            <td><code>3rem</code> (48px)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    Padding location
+                </h3>
+                <table class="table table-bordered table-striped table-hover w-auto ">
+                    <thead>
+                        <tr>
+                        <th>Clase</th>
+                        <th>Descripción</th>
+                        <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td><code>pt-4</code></td>
+                        <td>Padding arriba (top)</td>
+                        <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                        <tr>
+                        <td><code>pb-4</code></td>
+                        <td>Padding abajo (bottom)</td>
+                        <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                        <tr>
+                        <td><code>ps-4</code></td>
+                        <td>Padding al inicio (izquierda en LTR / derecha en RTL)</td>
+                        <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                        <tr>
+                        <td><code>pe-4</code></td>
+                        <td>Padding al final (derecha en LTR / izquierda en RTL)</td>
+                        <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                        <tr>
+                        <td><code>px-4</code></td>
+                        <td>Padding horizontal (izquierda y derecha)</td>
+                        <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                        <tr>
+                        <td><code>py-4</code></td>
+                        <td>Padding vertical (arriba y abajo)</td>
+                        <td><code>1.5rem</code> (24px)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </section>
             <footer class="row">
-                <div class="col">
-                <h3>
-                    Footer
-                </h3>
+                <div class="footer col">
+                    <div class="footer-container">
+                        <p>&copy; 2025 Mi Sitio Web - Todos los derechos reservados</p>
+                    </div>
                 </div>
             </footer>
         </div>       

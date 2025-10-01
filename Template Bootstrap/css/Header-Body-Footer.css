@@ -1,0 +1,25 @@
+body {
+	background: #f0f3f5;
+	color: #fff;
+}
+
+header {
+	background: #9aca40;
+}
+.contenedor-main {
+    background: #ffffff;
+    color: #000000;
+}
+
+.footer {
+  background-color: #e0e0e0; /* gris claro */
+  padding: 1rem 0;
+  text-align: center;
+  color: #333;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+}
+
+.footer p {
+  margin: 0;
+}
