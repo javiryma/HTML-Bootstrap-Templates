@@ -1,13 +1,4 @@
- 
- body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
+
 .form-container {
     background: #fff;
     padding: 15px;
@@ -229,7 +220,7 @@
 }
 
 .wca a {
-    color: #0f9d58;
+    color: #1976d2;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
@@ -242,8 +233,14 @@
     padding: 0 15px;
 }
 .privPolicy a {
-    color: #0f9d58;
+    color: #1976d2;
     margin-left: 5px;
     text-decoration: none;
+}
+.headerLogin{
+    background: #1976d2;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+
 }
 

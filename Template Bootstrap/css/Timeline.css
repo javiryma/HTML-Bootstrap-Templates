@@ -61,3 +61,8 @@ a {
     height: auto;
     border: 1px solid rgba(0, 0, 0, .09);
 }
+
+.fontFamily{
+    font-family: 'Poppins', sans-serif;
+    color: #1976d2; 
+}
