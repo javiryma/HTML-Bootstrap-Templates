@@ -4,7 +4,6 @@
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 550px;
 }
 .form-title  {
     text-align: center;
@@ -117,23 +116,15 @@
     background-image: none;
     margin-bottom: 10px;
     max-width: 173px;
-    width: 50%;
 }
 .loginBtn {
-    background-color: #f5f5f5;
     border-radius: 3px;
     box-shadow: 0 1px 3px #00000014, inset 0 -1px 4px #979faf33;
     box-sizing: border-box;
-    color: #39424e;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
-    line-height: 18px;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 10px 20px;
-    position: relative;
     text-align: center;
     text-decoration: none !important;
     vertical-align: middle;
@@ -141,84 +132,60 @@
 .socialAuthBtn {
     height: 40px !important;
     padding: 0 2px;
-    width: auto;
+    width: 100px !important;
 }
-.socialAuthBtn>span {
-    align-items: center !important;
-    display: flex;
-    height: 100%;
-    justify-content: space-between !important;
-    
-}
-.socialAuthBtn>span>span:first-child {
-    border-right: 1px solid #FFF3;
-    padding-right: 5px;
-}
-.socialAuthBtn>span>span {
-    align-items: center;
-    display: flex;
-    height: 100%;
-    
-}
- .socialAuthBtn>span>span:last-child {
-    flex-grow: 1;
-    justify-content: center;
-    width: 100%;
-    padding: 5px;
+.socialAuthIcon {
+    height: 40px !important;
+    padding: 0 2px;
+    width: 20px !important;
 }
 
-.socialAuthBtn>span>span>svg {
-    padding: 5px;
-}
 .btnFacebook {
     background-color: #3b5998 !important;
     border: 1px solid #3b5998;
     color: #fff;
-    margin-left: 20px;
 }
 .btnFacebook:hover {
     background-color: #3b5998 !important;
-    border: 1px solid #3b5998;
+    border: 1px solid white;
     color: #fff;
-    margin-left: 20px;
 }
 .btnGoogle {
     background-color: #dd4b39 !important;
     border: 1px solid #c9453a;
     color: #fff;
-    margin-right: 20px;
 }
 .btnGoogle:hover {
     background-color: #dd4b39 !important;
-    border: 1px solid #c9453a;
+    border: 1px solid white;
     color: #fff;
-    margin-right: 20px;
 }
 .btnGithub {
     background: #191717 !important;
     border: 1px solid #191717;
     color: #fff;
-    margin-left: 20px;
 }
 .btnGithub:hover {
     background: #191717 !important;
-    border: 1px solid #191717;
+    border: 1px solid white;
     color: #fff;
-    margin-left: 20px;
 }
 .btnTwitter {
     background-color: #1f88be !important;
     border: 1px solid #075b8c;
     color: #fff;
-    margin-right: 20px;
 }
 .btnTwitter:hover {
     background-color: #1f88be !important;
-    border: 1px solid #075b8c;
+    border: 1px solid white;
+    color: #fff;
+}
+.btnSignIn {
+    background-color: #1976d2 !important;
+    border: 1px solid white;
     color: #fff;
     margin-right: 20px;
 }
-
 .wca a {
     color: #1976d2;
     font-size: 14px;
