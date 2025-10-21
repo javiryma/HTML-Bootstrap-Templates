@@ -36,8 +36,9 @@ body { overflow-x: hidden; }
 }
 .imgUser{
     border-radius: 50%;
-    width: 40px;
-    height: 60px;
+    max-width: 35px;
+    width: 100%;
+    height: auto;
 }
 .topic{
     border-radius: 12px;
@@ -64,5 +65,37 @@ a {
 
 .fontFamily{
     font-family: 'Poppins', sans-serif;
-    color: #1976d2; 
+}
+.fontMenu{
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    
+}
+.singupbutton{
+
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+.loginbutton{
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+button:hover{
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    background-color: white;
+    color: #1976d2;
+}
+button{
+    background-color: #1976d2;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid white;
+}
+.backitem{
+    background-color: #1976d2;
+    color: white;
+    border: 1px solid 1976d2;
 }
