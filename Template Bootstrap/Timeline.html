@@ -7,13 +7,15 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/Timeline.css">
         <link rel="stylesheet" href="../login/login.css">
+           <link rel="stylesheet" href="css/Search.css">
         <title>Timeline</title>
     </head>
-    <body  class="d-flex flex-column min-vh-100 over" style="padding-top:70px" >
+    <body  class="d-flex flex-column min-vh-100 over" style="padding-top:65px" >
             <header class="row flex-row fs-1 fs-xl-2 m-0 p-0 fixed-top">
                 <div class="col-5 m-0  p-1 justify-content-start">
                     <span title="OnGlass" href="https://onglass.net" class="title ms-2 "> OnGlass </span>
                 </div>
+               
                 <div class=" d-md-flex col-2 m-0 justify-content-center align-items-end p-0">
                     <nav class="navbar navbar-expand-lg justify-content-center" aria-label="Main navigation">
             
@@ -63,9 +65,10 @@
                             data-bs-target="#loginModal"
                             >Login</button>
                         <button type="button" class="singupbutton fontFamily fs-6">SingUp</button>
-                    </div>
+                    </fieldset>
                 </div>
             </header>
+
             <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -166,8 +169,18 @@
                     </div>
                 </div>
             </div>
-            <main class="row">        
-                <div class="col-12">
+            <main class="row justify-content-center"> 
+                <div class="relative  col-10 col-md-6 col-lg-3 " >     
+                 <div class="search">
+                    <input class="inputSearch" type="search" id="query" name="query" placeholder="Search..." aria-label="Search through site content">
+                    <a class="buttonSearch" type="submit" aria-label="Search">
+                        <svg class="svgSearch" viewBox="0 0 1024 1024">
+                            <path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path>
+                        </svg>
+                    </a>
+                </div> 
+                </div>
+                <div class="col-12 mt-2">
                     <div class="container post ">
                         <div class="row mt-2">
                             <div class="col-1 mt-2 p-0 text-end">

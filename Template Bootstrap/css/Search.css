@@ -1,0 +1,53 @@
+.search {
+    background-color: #1976d2;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align: left;
+  }
+
+  .inputSearch {
+    all: unset;
+    font: 14px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+  .svgSearch {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    margin: 10px 0 0 0;
+  }
+
+  .buttonSearch {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+.relative {
+    position: fixed;
+    top: 80px;
+ 
+    height: auto;
+    color: white;
+    z-index: 100;
+    border: 0px;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
