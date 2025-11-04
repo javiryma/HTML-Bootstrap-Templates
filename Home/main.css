@@ -1,0 +1,110 @@
+ :root {
+    --font: 'Courier New, Courier, monospace';
+    --fontColorPrimary: #E75F21;
+    --fontColorSecondary: #ffffff;
+    --backHardPrimaryColor: #20272F;
+    --backHardSeconColor: #353E47;
+
+    --backSoftColor: #E75F21;
+ }
+ 
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+ }
+ .title{
+    font-family: var(--font);
+    color: var(--fontColorPrimary);
+ }
+ 
+ .grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'main main main'
+    'products products products'
+    'services services services'
+    'footer footer footer';
+    grid-gap: 0px;
+    padding: 0px;
+}
+.header {
+    grid-area: header;
+    background-color: var(--backHardPrimaryColor);
+    padding: 20px;
+    color: var(--fontColorSecondary);
+    font-family: var(--font);
+    font-size: 2.1em;
+    font-weight: 700;
+}
+.products {
+    grid-area: products;
+    background-color: var(--backHardPrimaryColor);
+    padding: 20px;
+    text-align: center;
+}
+.main {
+    grid-area: main;
+    background-color:var(--backHardSeconColor);
+    padding: 20px;
+    text-align: center;
+}
+.services {
+    grid-area: services;
+    background-color: var(--backHardSeconColor);
+    padding: 20px;
+     text-align: center;
+}
+.footer {
+    grid-area: footer;
+    background-color: var(--backHardSeconColor);
+    padding: 20px;
+    text-align: center;
+}
+.singupbutton{
+
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+
+.loginbutton{
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+button:hover{
+    font-family: var(--font);
+    border: 0;
+    background-color: var(--backSoftColor);
+    color: var(--fontColorSecondary);
+}
+button{
+    background-color: var(--backHardPrimaryColor);
+    color: var(--fontColorSecondary);
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid var(--backSoftColor);
+}
+.linkMenu{
+    text-decoration: none;
+    color: var(--fontColorPrimary);
+    font-family: var(--font);
+}
+.linkMenu:hover{
+    text-decoration: none;
+    color: var(--fontColorSecondary);
+    font-family: var(--font);
+}
+.backitem{
+    background-color: var(--backHardPrimaryColor);
+    color: var(--fontColorSecondary);
+    border: 1px solid var(--backSoftColor);
+}
+.backitem:hover{
+    background-color: var(--backHardSeconColor);
+    color: var(--fontColorPrimary);
+    border: 1px solid var(--backSoftColor);
+}
+.menuButton{
+    background-color: var(--backSoftColor);
+}
